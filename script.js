@@ -3,6 +3,10 @@
 // if you don't understand them! Totally not hypocritical
 // in the least!
 
+// Oh yeah, there's a memory leak in here somewhere that 
+// kills performance. If u happen to find it, pls open
+// pull request!!! Or if u somehow find more optimal solution!
+
 /**
  * Sleep function so cloudflare doesn't molest you
  */
