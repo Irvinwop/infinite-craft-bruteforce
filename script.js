@@ -24,7 +24,6 @@ var q = Array.from(document.getElementsByClassName("item")).map(el => {
     };
 });
 var fail = false;
-});
 // If you start blowing up your computer, just 
 // type in fail = true and it should stop!
 while (!fail) {
