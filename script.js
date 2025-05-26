@@ -32,7 +32,7 @@ while (!fail) {
             // you can do j = i because the craft function
             // actually sorts it for you. I found this one
             // out through the dev panel.
-            if (!fail) break;
+            if (fail) break;
             //I'm not lying!!!
             await window.IC.craft(q[i], q[j]);
             // behold, my magic, the hidden game functions
